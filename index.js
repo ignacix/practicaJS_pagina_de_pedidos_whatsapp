@@ -12,11 +12,6 @@ function sumar(){
     x+=1;
     document.getElementById("contador").innerHTML= x+" panchitos";
     direccion= document.getElementById("direccion").value;
-<<<<<<< HEAD
-=======
-    cadena= "https://wa.me/1156575340?text="+"Hola quiero "+ x +" PANCHITOS"+" a "+direccion;
-    document.getElementById("enlace").setAttribute("href",cadena)
->>>>>>> 6ccb0e016b7e4de00f7369f7e3104604060202ea
 }
 
 function restar(){
@@ -25,11 +20,6 @@ function restar(){
     }
     document.getElementById("contador").innerHTML=x+" panchitos";
     direccion= document.getElementById("direccion").value;
-<<<<<<< HEAD
-=======
-    cadena = "https://wa.me/1156575340?text="+"Hola quiero "+x+" PANCHITOS"+ " a "+direccion;
-    document.getElementById("enlace").setAttribute("href",cadena);
->>>>>>> 6ccb0e016b7e4de00f7369f7e3104604060202ea
 
 
 }
