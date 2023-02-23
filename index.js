@@ -21,9 +21,16 @@ function restar(){
 }
 
 function cargardireccion(){
+    
     direccion = document.getElementById("direccion").value
-    cadena = "https://wa.me/56575340?text=Hola%20quiero%20 "+x+" PANCHITOS"+ " a "+direccion+"%20";
-    document.getElementById("enlace").setAttribute("href",cadena);
+
+    if (x==0 || direccion=="") {
+        alert("Por favor, Ingrese la CANTIDAD DE PANCHITOS y su DIRECCIÓN")
+    }else{
+        cadena = "https://wa.me/56575340?text=Hola%20quiero%20 "+x+" PANCHITOS"+ " a "+direccion+"%20";
+        document.getElementById("enlace").setAttribute("href",cadena);
+    }
+    
 }
 
 
