@@ -12,8 +12,6 @@ function sumar(){
     x+=1;
     document.getElementById("contador").innerHTML= x+" panchitos";
     direccion= document.getElementById("direccion").value;
-    cadena= "https://wa.me/1156575340?text=Hola%20quiero%20 "+ x +" PANCHITOS"+" a "+direccion;
-    document.getElementById("enlace").setAttribute("href",cadena)
 }
 
 function restar(){
@@ -22,11 +20,15 @@ function restar(){
     }
     document.getElementById("contador").innerHTML=x+" panchitos";
     direccion= document.getElementById("direccion").value;
-    cadena = "https://wa.me/1156575340?text=Hola%20quiero%20 "+x+" PANCHITOS"+ " a "+direccion;
-    document.getElementById("enlace").setAttribute("href",cadena);
+
 
 }
 
+function cargardireccion(){
+    direccion = document.getElementById("direccion").value
+    cadena = "https://wa.me/56575340?text=Hola%20quiero%20 "+x+" PANCHITOS"+ " a "+direccion+"%20";
+    document.getElementById("enlace").setAttribute("href",cadena);
+}
 
 
 
