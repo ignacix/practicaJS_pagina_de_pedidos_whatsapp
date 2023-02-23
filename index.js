@@ -1,12 +1,8 @@
 x = 0;
 
-direccion = "NO PUSO DIRECCIÓN"
-
-//FUNCIÓN PARA CAPTURAR LA DIRECCIÓN
+direccion = "NO PUSO DIRECCIÓN";
 
 
-
-//FUNCIONES QUE LLAMAN LOS BOTONES (CUÁNTOS PANCHITOS QUIERE)
 
 function sumar(){
     x+=1;
